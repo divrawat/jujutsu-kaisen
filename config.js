@@ -1,6 +1,6 @@
 
-export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.jujutsukaisenmanga.in.net';
+// export const DOMAIN = 'http://localhost:3000';
+export const DOMAIN = 'https://www.jujutsukaisenmanga.in.net';
 
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Jujutsu Kaisen</u></a> follows Yuji Itadori, a high schooler with great physical skills who gets involved with Jujutsu Sorcerers. After swallowing a cursed object to save his friends, Yuji becomes the host of a powerful curse named Sukuna. Instead of being executed, he joins a school for sorcerers to help find and destroy the rest of Sukuna's cursed fingers. Alongside his friends Megumi and Nobara, and guided by their mentor, Satoru Gojo, Yuji battles curses to protect humanity.`;
