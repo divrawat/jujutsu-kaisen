@@ -1,6 +1,6 @@
 
 export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.vinlandsagamanga.in.net';
+// export const DOMAIN = 'https://www.jujutsukaisenmanga.in.net';
 
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Jujutsu Kaisen</u></a> follows Yuji Itadori, a high schooler with great physical skills who gets involved with Jujutsu Sorcerers. After swallowing a cursed object to save his friends, Yuji becomes the host of a powerful curse named Sukuna. Instead of being executed, he joins a school for sorcerers to help find and destroy the rest of Sukuna's cursed fingers. Alongside his friends Megumi and Nobara, and guided by their mentor, Satoru Gojo, Yuji battles curses to protect humanity.`;
@@ -73,6 +73,48 @@ export const MANGA_SUMMARY = [
         content: "Jujutsu Kaisen is praised for its well-developed characters, intricate plot, and the seamless blend of horror and supernatural elements. The series keeps readers on the edge of their seats with its thrilling battles, emotional depth, and surprising twists. It's a must-read for fans of action-packed and emotionally engaging stories."
     },
 ];
+
+
+export const RelatedMangaLinks = [
+    {
+        imageUrl: `${DOMAIN}/related/frieran.webp`,
+        title: 'Frieran',
+        link: 'https://www.frieranmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/one-punch-man.webp`,
+        title: 'One Punch Man',
+        link: 'https://www.onepunchmanmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/vinland-saga.webp`,
+        title: 'Vinland Saga',
+        link: 'https://www.vinlandsagamanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/jujutsu-kaisen.webp`,
+        title: 'Jujutsu Kaisen',
+        link: 'https://www.jujutsukaisenmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/black-clover.webp`,
+        title: 'Black Clover',
+        link: 'https://www.blackclovermanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/chainsaw-man.webp`,
+        title: 'Chainsaw Man',
+        link: 'https://www.chainsawmanmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/mushoku-tensei.webp`,
+        title: 'Mushoku Tensei',
+        link: 'https://www.mushokutenseimanga.in.net',
+    },
+];
+
+
+
 
 
 

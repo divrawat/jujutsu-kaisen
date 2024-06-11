@@ -26,7 +26,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     const nextChapter = chapterIndex < totalChapters - 1 ? chaptersData[chapterIndex + 1].chapterNumber : null;
 
 
-    const DESCRIPTION = `You are currently enjoying reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}.`
+    const DESCRIPTION = `Read ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}.`
     const URL = params.chapter;
     const currentDate = new Date();
     const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
@@ -87,6 +87,8 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
             <article>
                 <h1 className="text-3xl font-bold text-center p-5 md:my-5">{`${MANGA_NAME} Chapter ${chapterNumber}`}</h1>
 
+                <p className='text-center px-4'>You are reading {MANGA_NAME} <b>Chapter {chapterNumber}</b></p>
+
                 <div className='mx-3 my-7'>
                     <div className="flex justify-between max-w-[800px] mx-auto md:mb-[50px] mt-5">
                         {previousChapter !== null ? (
@@ -117,6 +119,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 </div>
 
                 <div className='py-10 bg-[#0f0511]'>
+                    <h2 className='text-4xl text-center text-[white] font-blod px-4 mb-10'>Comment Section</h2>
                     <section className='max-w-[1000px] mx-auto px-5'>
                         <DisqusComments url={`/manga/${URL}`} identifier={chapterNumber} title={`${MANGA_NAME} Chapter ${chapterNumber}`} />
                     </section>
