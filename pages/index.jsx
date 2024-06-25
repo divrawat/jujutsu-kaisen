@@ -80,7 +80,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     </Head >
   );
-
+  const filteredMangaLinks = RelatedMangaLinks.filter(item => item.link !== DOMAIN);
 
   return (
     <>
